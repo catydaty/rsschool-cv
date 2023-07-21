@@ -72,6 +72,14 @@ a {
 
 .section-item {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center;
 }
 
 .section-item a:hover {
@@ -93,6 +101,54 @@ a {
     padding: 20px;
 }
 
+.section__gloacademy {
+    background-image: url(/assets/svg/glo-academy-icon.svg);
+}
+
+.section__github {
+    background-image: url(/assets/svg/github.svg);
+}
+
+.section__githubpage {
+    background-image: url(/assets/svg/github-pages.svg);
+}
+
+.section__html {
+    background-image: url(/assets/svg/html.svg);
+}
+
+.section__css {
+    background-image: url(/assets/svg/css.svg);
+}
+
+.section__figma {
+    background-image: url(/assets/svg/figma.svg);
+}
+
+.section__htmlacademy {
+    background-image: url(/assets/svg/htmlacademy.svg);
+}
+
+.section__rsschool {
+    background-image: url(/assets/svg/logo-rs.svg);
+}
+
+.section__project {
+    background-image: url(/assets/svg/social/lab.svg);
+}
+
+.section__telegram {
+    background-image: url(/assets/svg/social/telegram.svg);
+}
+
+.section__githubLink {
+    background-image: url(/assets/svg/social/github.svg);
+}
+
+.section__mail {
+    background-image: url(/assets/svg/social/mail4.svg);
+}
+
 .link {
     text-decoration: none;
     color: #fff;
@@ -100,7 +156,7 @@ a {
 }
   
 .link:hover {
-    color: #1ec938;
+    color: #2ea740;
 }
 
 .footer{
@@ -126,6 +182,6 @@ a {
 
 @media (max-width: 768px) {
     .section {
-      width: 100%;
+        width: 100%;
     }
   }
